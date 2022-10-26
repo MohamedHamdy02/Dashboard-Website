@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./icons/all.min.css" />
+    <script src="./icons/all.min.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="nav-bar" onclick="showMenu()">
+      <p class="cust icn">
+        <i class="fa-solid fa-bars"></i>
+        &nbsp;Menu
+      </p>
+      <p class="logo">Logo</p>
+    </div>
+    <!-- ------N A V I G A T I O N - B A R------- -->
+    <nav id="navlinks">
+      <i class="fa-solid fa-xmark cust-1" onclick="hideMenu()"></i>
+      <div class="container">
+        <div class="row">
+          <div class="col-4">
+            <img src="./imgs/avatar2.png" alt="" />
+          </div>
+          <div class="col-8">
+            <p>Welcome. <b>Mike</b></p>
+            <i class="fa-regular fa-envelope custom"></i>
+            <i class="fa-solid fa-person custom"></i>
+            <i class="fa-solid fa-gear custom"></i>
+          </div>
+        </div>
+      </div>
+      <hr style="border: 1px solid #ccc; width: 100%" />
+      <div class="nav-links">
+        <h3>Dashboard</h3>
+        <p class="color">
+          <a href="">
+            <i class="fa-solid fa-users"></i>
+            Overview
+          </a>
+        </p>
+        <p>
+          <a href="">
+            <i class="fa-solid fa-eye"></i>
+            Views
+          </a>
+        </p>
+        <p>
+          <a href="">
+            <i class="fa-solid fa-users"></i>
+            Traffic
+          </a>
+        </p>
+        <p>
+          <a href="">
+            <i class="fa-solid fa-bullseye"></i>
+            Geo
+          </a>
+        </p>
+        <p>
+          <a href="#">
+            <i class="fa-regular fa-gem"></i>
+            Orders
+          </a>
+        </p>
+        <p>
+          <a href="">
+            <i class="fa-solid fa-bell"></i>
+            News
+          </a>
+        </p>
+        <p>
+          <a href="">
+            <i class="fa-solid fa-building-columns"></i>
+            General
+          </a>
+        </p>
+        <p>
+          <a href="">
+            <i class="fa-solid fa-clock-rotate-left"></i>
+            History
+          </a>
+        </p>
+        <p>
+          <a href="">
+            <i class="fa-solid fa-gear"></i>
+            Settings
+          </a>
+        </p>
+      </div>
+    </nav>
+    <!------M A I N - C O N T A I N E R-------->
+    <main>
+      <div class="header">
+        <h3>
+          <i class="fa-solid fa-gauge"></i>
+          My Dashboard
+        </h3>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="dash-icon">
+            <i class="fa-solid fa-comment"></i>
+          </div>
+          <div class="dash-number">
+            <h2>52</h2>
+          </div>
+          <div class="clear-fix"></div>
+          <h2>Messages</h2>
+        </div>
+        <div class="col blue">
+          <div class="dash-icon">
+            <i class="fa-solid fa-eye"></i>
+          </div>
+          <div class="dash-number">
+            <h2>99</h2>
+          </div>
+          <div class="clear-fix"></div>
+          <h2>Views</h2>
+        </div>
+        <div class="col green">
+          <div class="dash-icon">
+            <i class="fa-solid fa-share-nodes"></i>
+          </div>
+          <div class="dash-number">
+            <h2>23</h2>
+          </div>
+          <div class="clear-fix"></div>
+          <h2>Shares</h2>
+        </div>
+        <div class="col yellow">
+          <div class="dash-icon">
+            <i class="fa-solid fa-users"></i>
+          </div>
+          <div class="dash-number">
+            <h2>50</h2>
+          </div>
+          <div class="clear-fix"></div>
+          <h2>Users</h2>
+        </div>
+      </div>
+
+      <!--R E G I O N - S E C T I O N-->
+      <div class="region">
+        <div class="row">
+          <div class="col-5">
+            <h4>Regions</h4>
+            <img src="./imgs/region.jpg" alt="" />
+          </div>
+          <div class="col-7">
+            <h4>Feeds</h4>
+            <table cellspacing="0">
+              <tbody>
+                <tr class="white">
+                  <td>
+                    <i class="fa-solid fa-user text-primary"></i>
+                  </td>
+                  <td>
+                    <p>New record, over 90 views.</p>
+                  </td>
+                  <td>10 mins</td>
+                </tr>
+                <tr>
+                  <td>
+                    <i class="fa-solid fa-bell text-red"></i>
+                  </td>
+                  <td>Database error.</td>
+                  <td>15 mins</td>
+                </tr>
+                <tr class="white">
+                  <td>
+                    <i class="fa-solid fa-users text-yello"></i>
+                  </td>
+                  <td>New record, over 40 users.</td>
+                  <td>17 mins</td>
+                </tr>
+                <tr>
+                  <td>
+                    <i class="fa-solid fa-comment text-red"></i>
+                  </td>
+                  <td>New comments.</td>
+                  <td>25 mins</td>
+                </tr>
+                <tr class="white">
+                  <td>
+                    <i class="fa-solid fa-bookmark text-primary"></i>
+                  </td>
+                  <td>Check transactions.</td>
+                  <td>28 mins</td>
+                </tr>
+                <tr>
+                  <td>
+                    <i class="fa-solid fa-laptop text-red"></i>
+                  </td>
+                  <td>CPU overload.</td>
+                  <td>35 mins</td>
+                </tr>
+                <tr class="white">
+                  <td>
+                    <i class="fa-solid fa-share-nodes text-green"></i>
+                  </td>
+                  <td>New shares.</td>
+                  <td>39 mins</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!---------S T A T S---------->
+      <div class="stats-section">
+        <h4>General Stats</h4>
+        <p>New Visitors</p>
+        <div class="progress-bar">
+          <div class="bar">+25%</div>
+        </div>
+        <p>New Users</p>
+        <div class="progress-bar">
+          <div class="bar bg-orange">50%</div>
+        </div>
+        <p>Bounce Rate</p>
+        <div class="progress-bar">
+          <div class="bar bg-red">75%</div>
+        </div>
+      </div>
+
+      <!-----C O U N T R I E S - T A B L E----->
+      <div class="country-table">
+        <h4>Countries</h4>
+        <table cellspacing="0" class="table-2">
+          <tbody>
+            <tr class="white border-buttom">
+              <td class="table-padding">Egypt</td>
+              <td>65%</td>
+            </tr>
+            <tr class="border-buttom">
+              <td class="table-padding">Australia</td>
+              <td>15.7%</td>
+            </tr>
+            <tr class="white border-buttom">
+              <td class="table-padding">UK</td>
+              <td>5.6%</td>
+            </tr>
+            <tr class="border-buttom">
+              <td class="table-padding">Russia</td>
+              <td>2.1%</td>
+            </tr>
+            <tr class="white border-buttom">
+              <td class="table-padding">Spain</td>
+              <td>2.1%</td>
+            </tr>
+            <tr class="border-buttom">
+              <td class="table-padding">United States</td>
+              <td>1.5%</td>
+            </tr>
+          </tbody>
+        </table>
+        <button class="btn">
+          More Countries
+          <i class="fa-solid fa-arrow-right"></i>
+        </button>
+      </div>
+      <!-------U S E R S---L I S T--------->
+      <div class="users-section">
+        <h4>Recent Users</h4>
+        <ul>
+          <li>
+            <img src="./imgs/avatar2.png" alt="" />
+            <span>Mike</span>
+          </li>
+          <li>
+            <img src="./imgs/avatar5.png" alt="" />
+            <span>Jill</span>
+          </li>
+          <li>
+            <img src="./imgs/avatar6.png" alt="" />
+            <span>Jane</span>
+          </li>
+        </ul>
+      </div>
+
+      <!----C L I I E N T S-- C O M M E N T S---->
+
+      <div class="clients-comments">
+        <h4>Recent Comments</h4>
+        <div class="row marg">
+          <div class="col-2">
+            <img src="./imgs/avatar3.png" alt="" />
+          </div>
+          <div class="col-10">
+            <p><b>John &nbsp;</b>Sep 29, 2014, 9:12 PM</p>
+            <p>
+              Keep up the GREAT work! I am cheering for you!! Lorem ipsum dolor
+              sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+        </div>
+        <div class="row marg">
+          <div class="col-2">
+            <img src="./imgs/avatar1.png" alt="" />
+          </div>
+          <div class="col-10">
+            <p><b>Bo &nbsp;</b>ep 28, 2014, 10:15 PM</p>
+            <p>
+              Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!------D E M O G R A P H I C-------->
+      <div class="demograhic-section">
+        <div class="row">
+          <div class="col-4">
+            <h4 class="border-green">Demographic</h4>
+            <p>Language</p>
+            <p>Country</p>
+            <p>City</p>
+          </div>
+          <div class="col-4">
+            <h4 class="">System</h4>
+            <p>Browser</p>
+            <p>OS</p>
+            <p>More</p>
+          </div>
+          <div class="col-4">
+            <h4 class="border-orange">Target</h4>
+            <p>Users</p>
+            <p>Active</p>
+            <p>Geo</p>
+            <p>Interests</p>
+          </div>
+        </div>
+      </div>
+
+          <!----F O O T E R----->
+          
+      <footer>
+        <h4>FOOTER</h4>
+        <p>Powered by <a href="#">Mohamed Hamdy</a></p>
+      </footer>
+    </main>
+
+
+
+    <!-------J A V A - S C R I P T-------------->
+
+    <script>
+      var navlinks = document.getElementById("navlinks");
+      function showMenu() {
+        navlinks.style.display = "block";
+      }
+      function hideMenu() {
+        navlinks.style.display = "none";
+      }
+    </script>
+  </body>
+</html>
